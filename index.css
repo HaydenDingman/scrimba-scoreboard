@@ -1,0 +1,47 @@
+@font-face {
+    font-family: DSEG7;
+    src: url("DSEG7.woff2") format("woff2");
+}
+
+body {
+    margin: 0;
+    font-family: "DSEG7";
+    background-color: #1B244A;
+    color: white;
+    text-align:center;
+}
+
+button {
+    font-family: inherit;
+    background-color: #1B244A;
+    border:2px solid #F94F6D;
+    color: #F94F6D;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin:5px;
+}
+
+h3 {
+    font-family: Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, sans-serif;
+    font-size: 2rem;
+    margin-top:50px;
+}
+
+.score-field {
+    font-size: 5rem;
+    background-color: #080001;
+    color: #F94F6D;
+    padding:20px;
+    width:100px;
+    margin:0;
+    border: 3px solid #080001;
+}
+
+.score-buttons {
+    margin-top:20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
